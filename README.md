@@ -10,4 +10,4 @@ ESDTIs are defined in this upcoming paper as interactions between a transiting b
 | Transit Frame | 13     |
 | Total         | 994    |
 
-This preliminary group is still beign researched, and in-progress files are available for some of the information on ESDTI impact research so far.
+This preliminary group is still being researched, and in-progress files are available for some of the information on ESDTI impact research so far.
