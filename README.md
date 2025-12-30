@@ -25,3 +25,6 @@ The filesystem for the files is organized in a few different folders, so here is
    └── venv  
       ├── Codebase Environment (python venv)  
 ```
+
+### Notes:
+- To-do list and roadmap can be found in the project connected to this repository!
