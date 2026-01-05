@@ -1,0 +1,83 @@
+\documentclass{article}
+
+\usepackage{arxiv}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+
+\title{Describing Extremely Short Duration Transient Interactions with the Catalina Sky Survey}
+
+
+\author{
+ Rei Johnson \\
+  Department of Mathematics, Statistics, and Data Science\\
+  Montgomery College\\
+  Rockville, MD 20850 \\
+  \texttt{rjohn372@montgomerycollege.edu} \\
+}
+
+
+\begin{document}
+\maketitle
+
+
+\begin{abstract}
+Extremely Short-Duration Transient Interactions (ESDTIs) are a highly simulated and studied topic in astronomy instrumentation. The brightest ESDTIs are satellite transits, although the ESDTI detection algorithms presented in this article are capable of identifying space debris as an ESDTI as well. The detection algorithm is trained on Catalina Sky Survey (CSS) data \cite{Seam_2022}, with the algorithm being capable of identifying ESDTIs in CSS frames in real-time.
+\end{abstract}
+
+\keywords{ESDTI \and Catalina Sky Survey \and debris \and algorithm \and instrumentation}
+
+
+\section{Introduction}
+Extremely Short Duration Transient Interactions, ESDTIs, are a field which is heavily simulated but lightly observed. It is considered counterintuitive to point telescopes toward satellite paths in order to plague the camera sensor, however this does often happen unintentionally. In fact, over the course of 1000 images from the Catalina Sky Survey, or CSS, about 1\% of those images contained significantly bright ESDTIs \cite{Seam_2022}. Further information on this is presented in \ref{css}.
+
+A better representation of this is published by researchers at the Zwicky Transient Facility. The 2022 findings published by \cite{Mr_z_2022} suggest that the actual number of prominent satellites in images during twilight is 18\% compared to this study's observed 1\% to 2\%.
+
+The bigger question in the field now is the actual impact of these 
+
+\section{Data}
+\label{data}
+
+\subsection{Catalina Sky Survey}\label{css}
+Information from the Catalina Sky Survey, cited as \cite{Seam_2022} was used in this study, with a total of 994 images being used. These images are comprised of 981 
+
+\subsection{Labeling Process and Local Research Filesystem}\label{Process}
+The filesystem
+
+
+\section{Methods}
+
+
+\section{Results}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Fig1HIST+KDE.png}
+    \caption{Overlayed Histograms and KDEs for Baselines and Transits}
+    \label{fig:fig1}
+\end{figure}
+
+\section{Takeaways}
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\section*{Acknowledgements}
+The CSS survey is funded by the National Aeronautics and Space
+Administration under Grant No. NNG05GF22G issued through the Science
+Mission Directorate Near-Earth Objects Observations Program.  The CRTS
+survey is supported by the U.S.~National Science Foundation under
+grants AST-0909182 and AST-1313422.
+
+\end{document}
