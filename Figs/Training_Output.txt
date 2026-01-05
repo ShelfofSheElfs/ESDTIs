@@ -1,0 +1,11 @@
+Total Passes   : 1024
+Total Failures : 9
+Passed Transits: 11
+Failed Transits: 2
+False Positives: 7
+Accuracy Rate  : 0.9912875121006777
+Progress       : 1.0
+
+Total Runtime   : 4.67 m
+
+~/Documents/Transits dev* 4m 42s
