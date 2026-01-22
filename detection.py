@@ -1,13 +1,6 @@
 """
-Time to beat: 0.72 min for 994 frames (about 0.225s per frame)
-Accuracy to beat: 96.15% of all frames properly marked
-
-Small Data Scientist Interruption:
-    - This is trained on an incredibly insignificant number of frames
-    - Selections from about 3 days of observations is 1% of 1/6 of CSS 
-      observations and therefore insignificant on the whole
-    - This will be amended with more data and when reviewed 
-      alongside other simulation data
+Time to beat: 4.35 min for 1033 frames (about 0.252s per frame)
+Accuracy to beat: 99.13% of all frames properly marked (2 Transits failed, 7 False-Positives)
 """
 
 import os
